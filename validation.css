@@ -1,0 +1,65 @@
+body {
+    background-color: #efefef;
+    padding: 5%;
+    font-family: "Open Sans", Ubuntu, sans-serif;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+form {
+    background-color: #eee;
+    color: #333;
+    font-family: Raleway, Roboto, sans-serif;
+    padding: 10%;
+}
+
+input {
+    margin: 10px;
+    display: block;
+    border-radius: 5px;
+}
+
+#personal {
+    width: 45%;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+#selections {
+    width: 45%;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+#checkbox {
+    width: 45%;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+#contact {
+    margin: 10px;
+    /* display: block; */
+    flex-wrap: wrap;
+}
+
+#email:valid {
+
+}
+
+p {
+    margin-left: 10px;
+    font-size: .8em;
+}
+
+select {
+    margin-left: 10px;
+}
+
+.bigger {
+    font-size: 1em;
+}
