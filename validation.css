@@ -48,7 +48,27 @@ input {
 }
 
 #email:valid {
+  background-color: #ddffdd;
+}
 
+#email:invalid {
+  background-color: #ffdddd;
+}
+
+#phone:valid {
+  background-color: #ddffdd;
+}
+
+#phone:invalid {
+  background-color: #ffdddd;
+}
+
+#linkedIn:valid {
+  background-color: #ddffdd;
+}
+
+#linkedIn:invalid {
+  background-color: #ffdddd;
 }
 
 p {
